@@ -6,6 +6,7 @@
 body{
     box-sizing: border-box;
     background-color: lightblue;
+    height: 100vh;
 }
 
 .apresentacao{
@@ -77,4 +78,95 @@ body{
     font-family: 'HankenGrotesk', sans-serif;
     color: #c8c4fd;
     font-weight: 400;
+}
+
+.apresentacao__direita{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.apresentacao__texto__sumario{
+    margin: 50px 0px 0px 50px;
+    font-family: 'HankenGrotesk', sans-serif;
+    font-size: 25px;
+    color: #303b59;
+    
+}
+
+.apresentacao__paragrafos{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.apresentacao__paragrafos__reaction{
+    font-family: 'HankenGrotesk', sans-serif;
+    font-weight: 700;
+    color: rgb(224, 120, 120);
+    background-color: #fff6f5;
+    margin: 0px 50px 0px 50px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    justify-content: space-between;
+}
+
+.apresentacao__paragrafos__memory{
+    font-family: 'HankenGrotesk', sans-serif;
+    font-weight: 700;
+    color: #FFB831;
+    background-color: #fffbf2;
+    margin: 0px 50px 0px 50px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+}
+
+.apresentacao__paragrafos__verbal{
+    font-family: 'HankenGrotesk', sans-serif;
+    color: #5DD3B8;
+    background-color: #f2fafa;
+    margin: 0px 50px 0px 50px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+}
+
+.apresentacao__paragrafos__visual{
+    display: flex;
+    font-family: 'HankenGrotesk', sans-serif;
+    color: blue ;
+    background-color: #f3f3fd;
+    margin: 0px 50px 0px 50px;
+    padding: 15px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+}
+
+.apresentacao__texto__continue{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 20px 50px 20px 50px;
+    background-color: #303b59;
+    padding: 15px;
+    border-radius: 25px;
+    font-family: 'HankenGrotesk', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+
+}
+
+.apresentacao__notas{
+    display: flex;
+    
 }
