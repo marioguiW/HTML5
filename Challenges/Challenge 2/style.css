@@ -12,7 +12,7 @@ body{
 .apresentacao{
     display: flex;
     background-color: white;
-    margin: 10% 30%;
+    margin: 5% 25%;
     border-radius: 30px;
     width: 800px;
     height: 550px;
@@ -110,9 +110,20 @@ body{
     padding: 15px;
     display: flex;
     align-items: center;
-    gap: 10px;
     border-radius: 8px;
     justify-content: space-between;
+}
+
+.apresentacao__paragrafos__reaction > p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#oitenta{
+    color:rgb(176, 173, 173);
+    padding-right: 5px;
+    
 }
 
 .apresentacao__paragrafos__memory{
@@ -126,30 +137,53 @@ body{
     align-items: center;
     gap: 10px;
     border-radius: 8px;
+    justify-content: space-between;
+}
+
+.apresentacao__paragrafos__memory > p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .apresentacao__paragrafos__verbal{
     font-family: 'HankenGrotesk', sans-serif;
+    font-weight: 700;
     color: #5DD3B8;
-    background-color: #f2fafa;
+    background-color:  #f2fafa;
     margin: 0px 50px 0px 50px;
     padding: 15px;
     display: flex;
     align-items: center;
     gap: 10px;
     border-radius: 8px;
+    justify-content: space-between;
+}
+
+.apresentacao__paragrafos__verbal > p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .apresentacao__paragrafos__visual{
     display: flex;
     font-family: 'HankenGrotesk', sans-serif;
-    color: blue ;
+    color: rgb(19, 19, 165) ;
     background-color: #f3f3fd;
     margin: 0px 50px 0px 50px;
     padding: 15px;
     align-items: center;
     gap: 10px;
     border-radius: 8px;
+    justify-content: space-between;
+    font-weight: 700;
+}
+
+.apresentacao__paragrafos__visual > p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .apresentacao__texto__continue{
