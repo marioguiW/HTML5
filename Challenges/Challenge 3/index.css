@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: #F2EBE3;
+    height: 100vh;
+}
+
+.apresentacao{
+    display: flex;
+    margin: 12% 33%;
+    height: 500px;
+    width: 650px;
+}
+
+.imagem__produto{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.apresentacao_conteudo{
+    display: flex;
+    background-color: white;
+    width: 325px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    flex-direction: column;
+    gap: 5%;
+}
+
+.perfume{
+    display: flex;
+    font-family: Montserrat, sans-serif;
+    color: gray;
+    font-size: 14px;
+    /* border: solid black 2px; */
+    margin: 30px 30px 0px 30px;
+}
+
+.frances{
+    display: flex;
+    /* border: solid black 2px; */
+    font-family: Fraunces, serif;
+    font-size: 41px;
+    margin: 0px 30px 0px 30px;
+    line-height: 100%;
+}
+
+.descricao{
+    display: flex;
+    font-family: Montserrat, sans-serif;
+    color: gray;
+    margin: 0px 30px 0px 30px;
+    /* border: solid black 2px; */
+    font-size: 15px;
+    line-height: 150%;
+}
+
+.precos{
+    display: flex;
+    flex-direction: row;
+    /* border: solid black 2px; */
+    margin: 0px 30px 0px 30px;
+    gap: 7%;
+    
+}
+
+.preco__desconto{
+    display: flex;
+    font-family: Fraunces, serif;
+    font-size: 30px;
+    /* border: solid black 2px; */
+}
+
+.preço__original{
+    display: flex;
+    font-family: Fraunces, serif;
+    color: gray;
+    /* border: solid black 2px; */
+    align-items: center;
+}
+
+.carrinho{
+    size: 100px;
+}
+
+.adicionar__carrinho{
+    display: flex;
+    margin: 0px 30px 0px 30px;
+    /* border: solid black 2px; */
+    background-color: #3C8067;
+    height: 250%;
+    width:81%;
+    gap: 5%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+
+}
+
+    
+    
+
