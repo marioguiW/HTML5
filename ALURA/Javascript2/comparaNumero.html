@@ -1,0 +1,41 @@
+<meta charset="UTF-8">
+
+<input/>
+<button>Compare com o meu segredo</button>
+
+<script>
+    var listaSegredos = [];
+    var acertou = false;
+
+    for (var i = 0; i <= 4; i++){
+        var numeroAleatorio = Math.round(Math.random()*10);
+        listaSegredos.push(numeroAleatorio);
+    }
+
+    console.log(listaSegredos);
+
+    function comparaNumero(){
+        for(var j = 0; j <= 4; j++){
+            if(input.value == listaSegredos[j]){
+                acertou = true;
+                break;
+            }
+        }
+
+        if(acertou == true){
+            alert("Parabéns, voce acertou!");
+        }else{
+            alert("Que pena, Voce errou!");
+        }
+    }
+
+    var input = document.querySelector("input");
+    var button = document.querySelector("button");
+
+    button.onclick = comparaNumero;
+
+
+
+ 
+    
+</script>
